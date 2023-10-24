@@ -1,0 +1,157 @@
+   /* 基本样式 */
+   
+   body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #f5f5f5;
+   }
+   /* 导航栏样式 */
+   
+   .blog-header {
+       background-color: #003366;
+       color: #fff;
+       text-align: center;
+   }
+   
+   .header-content {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       max-width: 1080px;
+       margin: 0 auto;
+   }
+   
+   .nav-menu {
+       list-style: none;
+       padding: 0;
+   }
+   
+   .nav-menu li {
+       display: inline;
+       margin: 0 10px;
+   }
+   
+   .nav-menu a {
+       text-decoration: none;
+       color: #fff;
+       font-weight: bold;
+       transition: color 0.2s;
+   }
+   
+   .nav-menu a:hover {
+       color: #0056b3;
+   }
+   
+   .blog-title {
+       font-size: 28px;
+   }
+   
+   table {
+       font-family: Arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+   }
+   
+   th,
+   td {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       text-align: center;
+   }
+   
+   tr:nth-child(even) {
+       background-color: #f2f2f2;
+   }
+   
+   th {
+       background-color: #CCCCCC;
+       color: #fff;
+       text-align: center;
+   }
+   /* 悬停样式 */
+   
+   tr:hover {
+       background-color: #ccc;
+   }
+   /* 文章样式 */
+   
+   .blog-content {
+       max-width: 1080px;
+       margin: 0 auto;
+       padding: 20px;
+   }
+   
+   .blog-post {
+       background-color: #fff;
+       padding: 20px;
+       margin-bottom: 20px;
+       border: 1px solid #e0e0e0;
+       border-radius: 5px;
+   }
+   
+   .blog-post h2 {
+       background-color: #0033666b;
+       color: #000000d1;
+       font-size: 20px;
+       font-weight: 500;
+       padding: 10px;
+       margin: 10px 0;
+       text-transform: uppercase;
+       border-radius: 5px;
+   }
+   
+   .blog-post h1 {
+       font-size: 30px;
+       color: #333;
+   }
+   
+   .blog-post p {
+       font-size: 18px;
+       color: #111111;
+       line-height: 1.6;
+   }
+   
+   .blog-post p span {
+       color: #033bca;
+   }
+   
+   .blog-post a {
+       text-decoration: none;
+       color: #007bff;
+       font-weight: bold;
+       transition: color 0.2s;
+   }
+   
+   .blog-post a:hover {
+       color: #0056b3;
+   }
+   /* 页脚样式 */
+   
+   .blog-footer {
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 10px 0;
+   }
+   /* 好看的按钮样式 */
+   
+   .custom-button {
+       display: inline-block;
+       padding: 10px 20px;
+       font-size: 16px;
+       font-weight: bold;
+       text-align: center;
+       text-transform: uppercase;
+       color: #fff;
+       background-color: #003399;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.3s;
+   }
+   
+   .custom-button:hover {
+       background-color: #003399;
+   }
