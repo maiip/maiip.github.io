@@ -91,6 +91,11 @@
        border-radius: 5px;
    }
    
+   .blog-post img.ico-mei {
+       width: 25px;
+       margin: 0 5px -5px 5px;
+   }
+   
    .blog-post h2 {
        background-color: #0033666b;
        color: #000000d1;
